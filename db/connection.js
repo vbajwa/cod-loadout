@@ -2,10 +2,10 @@ var mongoose = require("mongoose");
 
 var LoadoutSchema = new mongoose.Schema(
 {
-  Primary: String,
-  Secondary: String,
-  Lethal: String,
-
+  primary: String,
+  secondary: String,
+  lethal: String,
+  tactical: String,
 });
 
 mongoose.model("Loadout", LoadoutSchema);
